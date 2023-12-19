@@ -31,7 +31,10 @@ function IntroSection() {
       >
         techupth.com
       </a>
-      <div className="bootcamp-start-time">{getCurrentDateTime()}</div>
+      <div className="bootcamp-start-time">
+        {" "}
+        วันเวลาเริ่มหลักสูตร คือ {getCurrentDateTime()}
+      </div>
     </div>
   );
 }
